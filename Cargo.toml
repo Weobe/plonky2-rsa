@@ -10,7 +10,7 @@ itertools = "0.14.0"
 num = { version = "0.4.3", features = ["num-bigint"] }
 num-bigint = "0.4.6"
 plonky2 = { git = "https://github.com/0xPolygonZero/plonky2" }
-plonky2_u32 = { git = "https://github.com/dgulotta/plonky2-u32.git" }
+plonky2_u32 = { git = "https://github.com/dgulotta/plonky2-u32.git", rev="a18e790"}
 plonky2_gate_utils = { git = "https://github.com/dgulotta/plonky2-gate-utils.git" }
 static_assertions = "1.1.0"
 serde = "1.0.219"
